@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Job Application Form</title>
+<script src="script.js"></script>
+<link rel="stylesheet" id="windowCSS">
+</head>
+<body>
+<div class="appForm"><h1>Job Application Form</h1></div>
+<div class="outline">
+<form id="jobApplicationForm">
+<label class="fields">Personal Information</label><br/>
+<div class="personalInfo">
+<label>First Name:</label><br/>
+<input required type="text" class = "checkbox" id="firstName"><br/>
+<label>Last Name:</label><br/>
+<input required type="text" class = "checkbox" id="lastName"><br/>
+<label>Phone Number:</label><br/>
+<input required type="tel" class = "checkbox" id="phoneNumber" placeholder="0300-1111111" pattern="^\d{4}-\d{7}$"><br/>
+<label>Email Address:</label><br/>
+<input required type="email" class = "checkbox" id="emailAddress" placeholder="abc@.xyzcom"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" ><br/>
+<label>Street:</label><br/>
+<input required type="text" class = "checkbox" id="street"><br/>
+<label>City:</label><br/>
+<input required type="text" class = "checkbox" id="city"><br/>
+<label>State:</label><br/>
+<input required type="text" class = "checkbox" id="state"><br/>
+<label>Zip Code:</label><br/>
+<input required type="text" class = "checkbox" id="zipCode" placeholder="12345" pattern="^\d{5}(-\d{4})?$" ><br/><br/>
+</div>
+
+<label class="fields">Resume and Cover Letter</label><br/>
+<div class="personalInfo">
+<label>Upload Resume:</label>
+<input required required  type="file" class = "checkbox" id="resume"><br/>
+<label>Cover Letter:</label><br/>
+<input type = "text" id="coverLetter" class = "checkbox"></input><br/><br/>
+</div>
+
+<label class="fields">Education</label><br/>
+<div class="personalInfo">
+<label>Highest Level of Education Attained:</label><br/>
+<input required  type="text" class = "checkbox" id="education"><br/>
+<label>Name of School/University:</label><br/>
+<input required  type="text" class = "checkbox" id="school"><br/>
+<label>Major/Area of Study:</label><br/>
+<input required type="text" class = "checkbox" id="major"><br/>
+<label>Graduation Year:</label><br/>
+<input required  type="text" class = "checkbox" id="graduationYear"><br/>
+<label>Employment History:</label><br/>
+<input type = "text" id="employmentHistory" class = "checkbox"></input><br/><br/>
+</div>
+
+<label class="fields">Previous Job Titles</label><br/>
+<div class="personalInfo">
+<label>Company Names:</label><br/>
+<input required  type="text" class = "checkbox" id="companyName"><br/>
+<label>Employment Dates:</label><br/>
+<input required  type="text" class = "checkbox" id="employmentDates"><br/>
+<label>Job Responsibilities:</label><br/>
+<input type = "text" id="jobResponsibilities" class = "checkbox"></input><br/><br/>
+</div>
+
+<label class="fields">Skills</label><br/>
+<div class="personalInfo">
+<label>Skills:</label><br/>
+<input  required type="text" class = "checkbox" id="skills"><br/><br/>
+</div>
+
+<label class="fields">Availability</label><br/>
+<div class="personalInfo">
+<label>Start Date:</label><br/>
+<input required  type="date" class = "checkbox" id="startDate"><br/>
+<label>Willingness to Relocate:</label><br/>
+<input required  type="text" class = "checkbox" id="relocate"><br/>
+<label>Preferred Work Schedule:</label><br/>
+<input required  type="text" class = "checkbox" id="schedule"><br/><br/>
+</div>
+
+<label class="fields">References</label><br/>
+<div class="personalInfo">
+<label>Reference Name:</label><br/>
+<input required  type="text" class = "checkbox" id="referenceName"><br/>
+<label>Reference Contact Information:</label><br/>
+<input required  type="text" class = "checkbox" id="referenceContact"><br/>
+<label>Relationship to Applicant:</label><br/>
+<input required  type="text" class = "checkbox" id="referenceRelationship"><br/><br/>
+</div>
+
+<label class="fields">Additional Questions</label><br/>
+<div class="personalInfo">
+<label>Why do you want to work for this company?</label><br/>
+<input type = "text" id="whyWorkHere" class = "checkbox"></input><br/><br/>
+</div>
+
+<label class="fields">Consent and Agreement</label><br/>
+<div class="personalInfo">
+<label>Terms and Conditions</label>
+<input type="checkbox" class = "checkbox" id="terms"><br/>
+<label>Privacy Policy</label>
+<input type="checkbox" class = "checkbox" id="privacy"><br/><br/>
+</div>
+
+<div class="btns">
+<button id="tableBtn" type="button">View Applications as Table</button>
+ <button id="btn2" type = "submit"> Submit</button>
+
+</div>
+</form>
+</div>
+
+<div id="appTable">
+<h2>Submitted Applications</h2>
+<table id="appsTable">
+</table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

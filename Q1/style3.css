@@ -1,0 +1,85 @@
+@media only screen and (max-width:640px)
+{
+body
+{
+	background-color:lightgray;
+}
+.navBar
+{
+    background-color:black;
+    height:80px;
+    margin-top:40px;
+    padding-top: 15px;
+	border-radius: 3px;
+	/* position:absolute; */
+	/* position:relative; */
+}
+.navBarElem
+{
+    color:black;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family:serif;
+    border:2px solid #D8BCAB;
+    background-color:#CA2C92;
+	border-radius: 5px;
+	margin-bottom:20px;
+	 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 	
+	 cursor: pointer; 
+}
+#logo
+{
+    background-color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid gainsboro;
+    margin:0px 30px 0px 20px;
+    padding:50px 30px 20px 30px;
+    font-size:220%;
+	display:inline;
+	cursor: pointer; 
+}
+a
+{
+    color:black;
+}
+#Menu
+{
+	display:inline;
+	 padding:10px 30px 10px 30px;
+    margin:20px 5px 0px 10px;
+	cursor: pointer; 
+}
+#navBarText
+{
+	display:block;
+    padding:10px 30px 10px 30px;
+    margin:20px 5px 0px 185px;
+	width:105px;
+}
+.img
+{
+	width:50%;
+	height:290px;
+	z-index:-1;
+}
+#img2
+{
+	display:block;
+	margin-left:auto;
+}
+.welcome
+{
+	display:flex;
+}
+#greet
+{
+	width:100%;
+	text-align:center;
+	padding:50px 50px 100px 50px;
+	font-family:OCR A Std, monospace;
+	font-weight:bold;
+	cursor: pointer; 
+	z-index:-1;
+}
+
+}

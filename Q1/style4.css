@@ -1,0 +1,70 @@
+@media only screen and (min-width: 640px) and  (max-width: 1008px)
+{
+body
+{
+	background-color:lightgray;
+}
+.navBar
+{
+    background-color:black;
+    height:80px;
+    margin-top:40px;
+    padding-top: 15px;
+	border-radius: 3px;
+}
+.navBarElem
+{
+
+    color:black;
+    display:inline;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family:serif;
+    border:2px solid #D8BCAB;
+    background-color:#CA2C92;
+    padding:10px 10px 10px 10px;
+    margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer; 
+}
+#logo
+{
+    background-color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid gainsboro;
+    margin:0px 5px 0px 20px;
+    padding:50px 20px 20px 20px;
+    font-size:220%;
+	cursor: pointer; 
+}
+a
+{
+    color:black;
+}
+#Menu
+{
+	display:none;
+}
+.img
+{
+	width:50%;
+	height:300px;
+}
+#img2
+{
+	display:block;
+	margin-left:auto;
+}
+.welcome
+{
+	display:flex;
+}
+#greet
+{
+	width:30%;
+	text-align:center;
+	padding:50px 50px 100px 70px;
+	font-family:OCR A Std, monospace;
+	font-weight:bold;
+	cursor: pointer; 
+}
